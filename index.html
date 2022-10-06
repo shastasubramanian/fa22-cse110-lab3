@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSE 110 Lab 2</title>
+    <meta charset="UTF-8" />
+    <link rel="placeholder" href="favicon.ico" />
+  </head>
+  <header>
+    <h1><span>Robotics Project First Meeting</span></h1>
+    <h2><em>Objective: Team Introduction and Brainstorming</em></h2>
+    <h2>October 6, 2022</h2>
+    <hr>
+  </header>
+    <button class="favorite styled"
+        type="button">
+        Don't Push This Button
+    </button>
+
+    <main>
+    <h3>Attendance List:</h3>
+    <nav class = "members">
+        <ul>
+            <li>Shasta Subramanian</li>
+            <li>Jared Yang</li>
+            <li>Nirmal Ayyagari</li>
+            <li>Alex Manoukian</li>
+            <li>Shady Henry</li>
+        </ul>
+    </nav>
+    <h3>Meeting Agenda:</h3>
+    <section>
+        <ol>
+            <li>Member Introductions</li>
+            <li>Project Description</li>
+            <li>Group Expectations</li>
+            <li>Idea Brainstorming</li>
+            <li>Conclusion and Planning Ahead</li>
+        </ol>
+    </section>
+    <h3>Unfinished Business from Last Meeting:</h3>
+    <ul>
+        <li>Role Assignment</li>
+        <li>Complete Member Intro + Onboarding</li>
+    </ul>
+    <h3>New Business Discussion</h3>
+    <p><strong>Project details will be released this week. <br>Currently in the process of discussing final details with the professor.</strong></p>
+    <h3>Questions, Comments, and Concerns:</h3>
+    <ul>
+        <li><b>Time Commitment</b></li>
+        <li>Meeting Schedule</li>
+        <li>Overall Timeline</li>
+    </ul>
+    <hr>
+    <details>
+        <summary>Magic Button</summary>
+        Please show up on time to meetings. We expect everyone to contribute to discussion.
+    </details>
+    
+    <textarea id="filler" name="filler"
+          rows="5" cols="20">
+We are testing user input
+for our website.
+    </textarea>
+    
+    <h3>Diagrams/Pictures:</h3>
+    <p>Sample Project Timeline (for us there will be less emphasis on marketing/website with more focus on robot design and testing</p>
+    <div class = "images">
+    <img
+        src = "https://2980030683-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LDgX-RpDDd3FfQb3yBa%2F-L_Tr2GJtrbI_HnWp9iy%2F-L_TrWTyHgusLk2Rxm3w%2Frobotics-phase2.png?alt=media&token=172ac890-18e8-40f5-ac5e-85a48a19906d"
+        width = 500
+    >
+    <p>Boston Dynamics <i>Spot Robot</i>: Inspiration for what our team can strive to achieve :)</p>
+    <img
+        src = "https://spectrum.ieee.org/media-library/boston-dynamics-has-finally-released-details-on-price-availability-and-applications-for-its-spot-quadruped-robot.jpg?id=25589757"
+        width = 500
+    >
+    <br>
+    <a href="https://www.bostondynamics.com/products/spot">Link to BD Website</a>
+    </div>
+    <hr>
+    <h3>Video Recording:</h3>
+        <video controls width="250">
+            <source src="videos/dronevideo.mp4"
+            type="video/mp4">
+        </video>
+    <h3>Audio Recording:</h3>
+        <figure>
+            <figcaption><b>IMPORTANT INSTRUCTIONS:</b></figcaption>
+            <audio controls
+                src="music/dronemusic.mp3">
+            </audio>
+        </figure>
+
+</figure>
+    <footer>Thank you all for attending the meeting. Please review the meeting notes and contact a team lead if you have any questions.</footer>
+
+    <p><b>Subscribe to our weekly newsletter below:</b><br></p>
+    <form action="" method="get" class="form-example">
+        <label for="first-name">First Name: </label>
+        <input type="text" name="first-name" id="first-name" required>
+
+        <label for="last-name">Last Name: </label>
+        <input type="text" name="last-name" id="last-name" required>
+        
+        <label for="email">Email address: </label>
+        <input type="email" name="email" id="email" required>
+        
+        <label for="start">Today's Date:</label>
+            <input type="date" id="start" name="trip-start" value="2022-10-06" min="2018-01-01" max="2023-12-31">
+            <br>
+            
+        <label for="sport-choice">Favorite Sport:</label>
+        <input list="sport-options" id="sport-choice" name="sport-choice">
+        <datalist id="sport-options">
+            <option value="Soccer">
+            <option value="Basketball">
+            <option value="MMA">
+            <option value="Tennis">
+            <option value="Water Polo">
+            <option value="Baseball">
+            <option value="I don't play sports">
+        </datalist>
+
+        <label for="year-select">Choose your school year:</label>
+
+        <select name="years" id="year-select">
+        <option value="">--Please choose an option--</option>
+        <option value="freshman">Freshman</option>
+        <option value="sophomore">Sophomore</option>
+        <option value="junior">Junior</option>
+        <option value="senior">Senior</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+    <form method="post">
+        <fieldset>
+            <legend>Select area of interest:</legend>
+                <div>
+                <input type="checkbox" id="hardware" name="hardware" checked>
+                <label for="hardware">Hardware</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="software" name="software">
+                <label for="software">Software</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="pr" name="pr">
+                <label for="pr">Public Relations</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="business" name="business">
+                <label for="business">Business</label>
+                </div>
+            <legend>Can we contact you if a position opens?</legend>
+            <label><input type="radio" name="radio" value="yes" /> Yes</label>
+            <label><input type="radio" name="radio" value="no" /> No</label>
+        </fieldset>
+    </form>
+</main>
+</html>
