@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://shastasubramanian.github.io/Lab2_Starter/
+# fa22-cse110-lab3
+https://shastasubramanian.github.io/fa22-cse110-lab3/
