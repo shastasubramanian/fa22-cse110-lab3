@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://shastasubramanian.github.io/Lab2_Starter/
+Shasta Subramanian Lab3 Pages Site
+https://shastasubramanian.github.io/fa22-cse110-lab3/
