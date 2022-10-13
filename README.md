@@ -1,2 +1,2 @@
-Shasta Subramanian Lab3 Pages Site
+# fa22-cse110-lab3
 https://shastasubramanian.github.io/fa22-cse110-lab3/
