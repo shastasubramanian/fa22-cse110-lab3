@@ -1,0 +1,92 @@
+/* Header 1 Color and Margins*/
+h1{
+    color: navy; /* Setting color to Navy*/
+    margin-left: 20px; /* Setting left margin to 20 pixels*/
+	font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+/* Header 2 Color and Margins*/
+h2{
+	    
+	color: rgb(138,43,226); /* Setting color to BlueViolet*/
+	
+}
+/* Header 3 Color and Margins*/
+h3{
+    color: green; /* Setting color to Green*/
+}
+
+.px{
+	width: 500px;
+}
+
+.em{
+	width: 10em;
+}
+
+.images{
+	font-size: 2em;
+	width: 6cm;
+	margin: auto;
+}
+
+button:hover {
+  color: blue;
+}
+
+button:active {
+  color: red;
+}
+
+ul {
+	position: sticky;
+	top: 20px;
+  border: 2px solid blue;
+  text-decoration: underline;
+  padding: .5em;
+  list-style: none;
+  padding: 0;
+  margin: 5 5 1 1;
+}  
+
+@media (min-width: 30em) and (orientation: landscape) {
+  /**/
+}
+
+.container {
+  display: grid;
+  grid-area: header;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.parent {
+  display: flex;
+  height: 250px;
+}
+
+.child {
+  width: 150px; 
+  height: 150px; 
+  margin: auto; 
+}
+
+.box {
+  position: static;
+  max-width: 200px;
+  inline-size: 300px;
+  height: 200px;
+  block-size: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 25px;
+  border: 10px solid black;
+  border-style: groove;
+}
